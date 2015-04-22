@@ -3,6 +3,7 @@
 FROM fooblahblah/hubot-victorops
 MAINTAINER Jeff Simpson, jeff@syncrodoka.net
 
+ENV HUBOT_ADAPTER victorops
 ENV HUBOT_PORT 8080
 ENV HUBOT_NAME hubot
 ENV HUBOT_GOOGLE_API_KEY xxxxxxxxxxxxxxxxxxxxxx
