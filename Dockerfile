@@ -1,7 +1,7 @@
 # DOCKER-VERSION        1.3.2
 
-FROM nhoag/hubot
-MAINTAINER Nathaniel Hoag, info@nathanielhoag.com
+FROM fooblahblah/hubot
+MAINTAINER Jeff Simpson, jeff@syncrodoka.net
 
 ENV HUBOT_PORT 8080
 ENV HUBOT_ADAPTER slack
