@@ -4,8 +4,7 @@ FROM fooblahblah/hubot-victorops
 MAINTAINER Jeff Simpson, jeff@syncrodoka.net
 
 ENV HUBOT_PORT 8080
-ENV HUBOT_ADAPTER slack
-ENV HUBOT_NAME bot-name
+ENV HUBOT_NAME hubot
 ENV HUBOT_GOOGLE_API_KEY xxxxxxxxxxxxxxxxxxxxxx
 env HUBOT_VICTOROPS_KEY=xxxxxxxxxxx
 env HUBOT_VICTOROPS_URL=wss://chat.victorops.com/chat
