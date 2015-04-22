@@ -7,8 +7,8 @@ ENV HUBOT_ADAPTER victorops
 ENV HUBOT_PORT 8080
 ENV HUBOT_NAME hubot
 ENV HUBOT_GOOGLE_API_KEY xxxxxxxxxxxxxxxxxxxxxx
-env HUBOT_VICTOROPS_KEY=xxxxxxxxxxx
-env HUBOT_VICTOROPS_URL=wss://chat.victorops.com/chat
+ENV HUBOT_VICTOROPS_KEY=xxxxxxxxxxx
+ENV HUBOT_VICTOROPS_URL=wss://chat.victorops.com/chat
 ENV PORT ${HUBOT_PORT}
 
 EXPOSE ${HUBOT_PORT}
