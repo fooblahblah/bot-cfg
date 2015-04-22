@@ -1,6 +1,6 @@
 # DOCKER-VERSION        1.3.2
 
-FROM fooblahblah/hubot
+FROM fooblahblah/hubot-victorops
 MAINTAINER Jeff Simpson, jeff@syncrodoka.net
 
 ENV HUBOT_PORT 8080
